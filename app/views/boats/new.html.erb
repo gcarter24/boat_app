@@ -1,0 +1,11 @@
+<h4>The New Boat</h4>
+
+
+<%= form_tag "/boats", method: :post do%>
+<p>Name: <input type="text" name="name"></p>
+<p>Capacity: <input type="text" name="capacity"></p>
+<p>Color: <input type="text" name="color"></p>
+<p>Year: <input type="text" name="year"></p>
+<p>Price: <input type="text" name="price"></p>
+<input type="submit" value="Make a boat">
+<% end %>
