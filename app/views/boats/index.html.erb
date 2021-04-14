@@ -2,7 +2,7 @@
 
 
 <% @boats.each do |boat| %>
-<p>Name: <%= boat.name%></p>
+<p>Name: <a href="/boats/<%= boat.id %>"><%= boat.name%></a></p>
 <p>Capacity: <%= boat.capacity%></p>
 <p>Year: <%= boat.year%></p>
 <p>Color: <%= boat.color%></p>
