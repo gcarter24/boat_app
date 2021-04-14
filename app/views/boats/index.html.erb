@@ -1,0 +1,11 @@
+<h1> I am in the index action </h1>
+
+
+<% @boats.each do |boat| %>
+<p><%= boat.name%></p>
+<p><%= boat.capacity%></p>
+<p><%= boat.year%></p>
+<p><%= boat.color%></p>
+<p><%= boat.price%></p>
+<hr>
+<% end %>
